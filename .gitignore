@@ -14,3 +14,9 @@ _book
 *.epub
 *.mobi
 *.pdf
+ConsoleAppFuncional/obj/ConsoleAppFuncional.csproj.nuget.dgspec.json
+ConsoleAppFuncional/obj/project.assets.json
+ConsoleAppFuncional/obj/project.nuget.cache
+ConsoleAppFuncional/obj/Debug/net5.0/ConsoleAppFuncional.assets.cache
+ConsoleAppFuncional/obj/Debug/net5.0/ConsoleAppFuncional.csproj.AssemblyReference.cache
+ConsoleAppFuncional/obj/Debug/net5.0/ConsoleAppFuncional.GeneratedMSBuildEditorConfig.editorconfig
