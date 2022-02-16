@@ -9,6 +9,8 @@ namespace ConsoleAppFuncional
             //lambda = funcion anonima 
             //(parametros) => el cuerpo de la funcion 
             int inValor = 0;
+            int valorUno = 0;
+            int valorDos = 0;
             string resultado = "";
             
             Func<int, bool> evaluaPar =  numero => numero % 2 == 0;
@@ -22,6 +24,18 @@ namespace ConsoleAppFuncional
             Console.WriteLine("el numero inresado " + inValor + ": " + resultado );
 
             Console.ReadLine();
+
+            Func<int, int, int> Sumatotal = (numeroUno, numeroDos) => numeroUno + numeroDos;
+
+            Console.WriteLine("Ingrese dos numeros para mostrar el producto de su suma");
+
+            valorUno = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Presione ENTER para ingresar el siguiente numero");
+
+            valorDos = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("el numero resultado de la suma entre  " + valorUno + " y " + valorDos + " es: " + Sumatotal(valorUno, valorDos));
         }
     }
 }
