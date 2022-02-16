@@ -1,0 +1,16 @@
+C:\Users\David\Documents\Visual Studio 2019\proyectos\ConsoleAppFuncional\ConsoleAppFuncional\bin\Debug\net5.0\ConsoleAppFuncional.exe
+C:\Users\David\Documents\Visual Studio 2019\proyectos\ConsoleAppFuncional\ConsoleAppFuncional\bin\Debug\net5.0\ConsoleAppFuncional.deps.json
+C:\Users\David\Documents\Visual Studio 2019\proyectos\ConsoleAppFuncional\ConsoleAppFuncional\bin\Debug\net5.0\ConsoleAppFuncional.runtimeconfig.json
+C:\Users\David\Documents\Visual Studio 2019\proyectos\ConsoleAppFuncional\ConsoleAppFuncional\bin\Debug\net5.0\ConsoleAppFuncional.runtimeconfig.dev.json
+C:\Users\David\Documents\Visual Studio 2019\proyectos\ConsoleAppFuncional\ConsoleAppFuncional\bin\Debug\net5.0\ConsoleAppFuncional.dll
+C:\Users\David\Documents\Visual Studio 2019\proyectos\ConsoleAppFuncional\ConsoleAppFuncional\bin\Debug\net5.0\ref\ConsoleAppFuncional.dll
+C:\Users\David\Documents\Visual Studio 2019\proyectos\ConsoleAppFuncional\ConsoleAppFuncional\bin\Debug\net5.0\ConsoleAppFuncional.pdb
+C:\Users\David\Documents\Visual Studio 2019\proyectos\ConsoleAppFuncional\ConsoleAppFuncional\obj\Debug\net5.0\ConsoleAppFuncional.csproj.AssemblyReference.cache
+C:\Users\David\Documents\Visual Studio 2019\proyectos\ConsoleAppFuncional\ConsoleAppFuncional\obj\Debug\net5.0\ConsoleAppFuncional.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\David\Documents\Visual Studio 2019\proyectos\ConsoleAppFuncional\ConsoleAppFuncional\obj\Debug\net5.0\ConsoleAppFuncional.AssemblyInfoInputs.cache
+C:\Users\David\Documents\Visual Studio 2019\proyectos\ConsoleAppFuncional\ConsoleAppFuncional\obj\Debug\net5.0\ConsoleAppFuncional.AssemblyInfo.cs
+C:\Users\David\Documents\Visual Studio 2019\proyectos\ConsoleAppFuncional\ConsoleAppFuncional\obj\Debug\net5.0\ConsoleAppFuncional.csproj.CoreCompileInputs.cache
+C:\Users\David\Documents\Visual Studio 2019\proyectos\ConsoleAppFuncional\ConsoleAppFuncional\obj\Debug\net5.0\ConsoleAppFuncional.dll
+C:\Users\David\Documents\Visual Studio 2019\proyectos\ConsoleAppFuncional\ConsoleAppFuncional\obj\Debug\net5.0\ref\ConsoleAppFuncional.dll
+C:\Users\David\Documents\Visual Studio 2019\proyectos\ConsoleAppFuncional\ConsoleAppFuncional\obj\Debug\net5.0\ConsoleAppFuncional.pdb
+C:\Users\David\Documents\Visual Studio 2019\proyectos\ConsoleAppFuncional\ConsoleAppFuncional\obj\Debug\net5.0\ConsoleAppFuncional.genruntimeconfig.cache
