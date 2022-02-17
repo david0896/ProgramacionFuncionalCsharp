@@ -25,6 +25,8 @@ namespace ConsoleAppFuncional
 
             Console.ReadLine();
 
+            ///////////////////////////////////////////////////////////////////////////////////
+
             Func<int, int, int> Sumatotal = (numeroUno, numeroDos) => numeroUno + numeroDos;
 
             Console.WriteLine("Ingrese dos numeros para mostrar el producto de su suma");
@@ -35,7 +37,24 @@ namespace ConsoleAppFuncional
 
             valorDos = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("el numero resultado de la suma entre  " + valorUno + " y " + valorDos + " es: " + Sumatotal(valorUno, valorDos));
+            Console.WriteLine("el numero resultado de la suma entre  " + valorUno + " y " + valorDos + " es: " + Sumatotal(valorUno, valorDos) + "\n");
+
+            ///////////////////////////////////////////////////////////////////////////////////
+
+            Func<string, bool> validadorCorreo = correo =>
+            {
+
+                if (!correo.EndsWith("gmail.com", StringComparison.CurrentCulture))
+                {
+                    Console.WriteLine("Correo no valido");
+                    return false;
+                }
+
+                return true;
+            };
+
+            Console.WriteLine("Correo ingresado es: " + validadorCorreo("prueba@gmail.com"));
+
         }
     }
 }
