@@ -55,6 +55,16 @@ namespace ConsoleAppFuncional
 
             Console.WriteLine("Correo ingresado es: " + validadorCorreo("prueba@gmail.com"));
 
+            //////////////////////////////////////////////////////////////////////////////////////
+
+            Action<string, int> saludar = (mensaje, numero) =>
+            {
+
+                Console.WriteLine(mensaje + numero);
+
+            };
+
+            saludar("Hola mundo :)  ", 404);
         }
     }
 }
