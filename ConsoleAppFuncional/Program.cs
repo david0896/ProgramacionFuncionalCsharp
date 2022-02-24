@@ -13,6 +13,21 @@ namespace ConsoleAppFuncional
             Console.WriteLine("Saldo restante: " + myDelegates.RealizaOperacion(deposito, 1001, 1000));
             Console.WriteLine("Saldo restante: " + myDelegates.RealizaOperacion(retiro, 1001, 1000));
 
+            //usando lambada para agregar una nueva funcionalidad al delegado 
+            MisDelegados.DelegadoOperacion depositoInteres = (cantidad, monto) =>
+            {
+
+                if (cantidad > 100)
+                {
+                    return cantidad + monto + (cantidad * 0.02f);
+                }
+
+                return cantidad + monto;
+            };
+
+            Console.WriteLine("Saldo restante: " + myDelegates.RealizaOperacion(depositoInteres, 140, 300));
+
+
         }
 
         public static void lambdasExpression() {
