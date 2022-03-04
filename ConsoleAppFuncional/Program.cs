@@ -1,4 +1,7 @@
-﻿using System;
+﻿using System.Collections.Generic;
+using System;
+using ConsoleAppFuncional.generico;
+
 
 namespace ConsoleAppFuncional
 {
@@ -7,27 +10,64 @@ namespace ConsoleAppFuncional
         static void Main(string[] args)
         {
             //lambdasExpression();
-            MisDelegados myDelegates = new MisDelegados();
-            MisDelegados.DelegadoOperacion retiro = myDelegates.retiro;
-            MisDelegados.DelegadoOperacion deposito = myDelegates.deposito;
-            Console.WriteLine("Saldo restante: " + myDelegates.RealizaOperacion(deposito, 1001, 1000));
-            Console.WriteLine("Saldo restante: " + myDelegates.RealizaOperacion(retiro, 1001, 1000));
 
-            //usando lambada para agregar una nueva funcionalidad al delegado 
-            MisDelegados.DelegadoOperacion depositoInteres = (cantidad, monto) =>
-            {
+            //MisDelegados myDelegates = new MisDelegados();
+            //MisDelegados.DelegadoOperacion retiro = myDelegates.retiro;
+            //MisDelegados.DelegadoOperacion deposito = myDelegates.deposito;
+            //Console.WriteLine("Saldo restante: " + myDelegates.RealizaOperacion(deposito, 1001, 1000));
+            //Console.WriteLine("Saldo restante: " + myDelegates.RealizaOperacion(retiro, 1001, 1000));
 
-                if (cantidad > 100)
+            ////usando lambada para agregar una nueva funcionalidad al delegado 
+            //MisDelegados.DelegadoOperacion depositoInteres = (cantidad, monto) =>
+            //{
+
+            //    if (cantidad > 100)
+            //    {
+            //        return cantidad + monto + (cantidad * 0.02f);
+            //    }
+
+            //    return cantidad + monto;
+            //};
+
+            //Console.WriteLine("Saldo restante: " + myDelegates.RealizaOperacion(depositoInteres, 140, 300));
+
+            //Console.WriteLine(new practicasDelegadosLambda().validNumPrimo(233));
+
+            //Console.WriteLine("El factorial de 4 es: " + new practicasDelegadosLambda().factorialNum(7));
+
+            //Console.WriteLine(new practicasDelegadosLambda().validNumPrimo(233));
+
+            //Console.WriteLine(new practicasDelegadosLambda().promedioNumeros(new List<int>()
+            //    {
+            //        2,
+            //        4,
+            //        6
+            //    })
+            //);
+
+            //Console.WriteLine(new practicasDelegadosLambda().buscarNumero(new List<int>()
+            //    {
+            //        79,
+            //        4,
+            //        6
+            //    })
+            //);
+
+            //Console.WriteLine(new practicasDelegadosLambda().evalNumsPrimos(7,7,7));
+
+            //Console.WriteLine(new practicasDelegadosLambda().evalPalindromoText("ojo"));
+
+            foreach (Genericos gn in new practicasDelegadosLambda().evalPalindromoList(new List<string>()
                 {
-                    return cantidad + monto + (cantidad * 0.02f);
-                }
+                    "oso",
+                    "sol",
+                    "ojo",
+                    "carro"
+                })) {
 
-                return cantidad + monto;
-            };
-
-            Console.WriteLine("Saldo restante: " + myDelegates.RealizaOperacion(depositoInteres, 140, 300));
-
-
+                Console.WriteLine(gn.texto + ": " + (gn.palindromo == true ? "palindromo" : "no palindromo"));
+            
+            }
         }
 
         public static void lambdasExpression() {
